@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Date</title>
+<script>
+	var Date = prompt("Enter a date in dd/mm/yy","16/11/94");
+	var pat = /[0-9]{2}\/[0-9]{2}\/[0-9]{2}$/g;
+	if(pat.test(Date)){
+		alert("Matching");
+	}
+	else{
+		alert("Not Matching");
+	}
+</script>
+</head>
+<body>
+
+</body>
+</html>

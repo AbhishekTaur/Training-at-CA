@@ -1,0 +1,10 @@
+package fileDelete;
+
+public class Filo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Registration Form</title>
+<link rel="stylesheet" type="text/css" href="Styles/mystyle.css">
+<script>
+function validate(){
+	name = document.getElementById("a").value;
+	Password = document.getElementById("b").value;
+	Reenter_Password = document.getElementById("c").value;
+	City =  document.getElementById("d").value;
+	msg = [];
+	if(name==null ||name == ""){
+		msg.push("Name is to be entered\n");
+	}
+	if(Password == null || Password == ""){
+		msg.push("Enter some password\n");
+	}
+	if(Reenter_Password!=Password){
+		msg.push("Reentered Password doesn't match");
+	}
+	alert(msg);
+	if(msg==""){
+		return true
+	}
+	else{
+		return false;
+	}
+}
+</script>
+</head>
+<header>
+<h1>
+Registration Form
+</h1>
+</header>
+<body  name="body" >
+<table name="table">
+	<tr>
+		<td>Name</td>
+		<td>
+		&nbsp
+		<form>
+			<input type="text" name="Name" id="a" ><br>
+		</form>
+		</td>
+		<td>
+		<br>
+		</td>
+	</tr>
+	<tr><td><br></td></tr> 
+	<tr>
+		<td>Password</td>
+		&nbsp
+		<td>
+		<form>
+			<input type="password" name="Password" id= "b"><br>
+		</form>
+		</td>
+		<td>
+		<br>
+		</td>
+	</tr>
+	<tr><td><br></td></tr> 
+	<tr>
+		<td>Re-enter Password</td>
+		<td>
+		&nbsp
+		<form>
+			<input type="password" name="Re-enter Password" id= "c"><br>
+		</form>
+		</td>
+		<td>
+		<br>
+		</td>
+	</tr>
+	<tr><td><br></td></tr> 
+	<tr>
+		<td>Gender</td>
+		&nbsp
+		<td>
+		<form>
+			 <input type="radio" name="Gender" value="male" > Male
+  			 <input type="radio" name="Gender" value="female"> Female<br>
+		</form>
+		</td>
+		<td>
+		<br>
+		</td>
+	</tr>
+	<tr><td><br></td></tr> 
+	<tr>
+		<td>City</td>
+		<td>
+		<form>
+			<input type="text" name="City" id= "d"><br>
+		</form>
+		</td>
+		<td>
+		<br>
+		</td>
+	</tr>
+	<tr><td><br></td></tr> 
+	<tr>
+		<td>Hobbies</td>
+		<td>
+		<form>
+			<input type="checkbox" name="Hobbies" value="Cricket"> Cricket<br>
+			<input type="checkbox" name="Hobbies" value="Football"> Football<br>
+			<input type="checkbox" name="Hobbies" value="Reading"> Reading<br>
+		</form>
+		</td>
+		<td>
+		<br>
+		</td>
+	</tr>
+	<tr><td><br></td></tr> 
+	<tr>
+		<td>About You</td>
+		<td>
+		&nbsp
+		<form>
+			<input type="text" name="About you"><br>
+		</form>
+		</td>
+		<td>
+		<br>
+		</td>
+	</tr>
+	<tr><td><br></td></tr> 
+	<tr>
+		<td>
+			<button type="button" value="Submit" onsubmit="return validate()" action="Success.html">submit</button>
+		</form>
+		</td>
+		<td>
+			<button type="button" value="Reset">reset</button>
+		</td>
+	</tr>
+</table>
+</body>
+</html>

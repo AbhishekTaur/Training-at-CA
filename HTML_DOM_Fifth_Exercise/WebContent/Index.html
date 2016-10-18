@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script>
+	function StudentForm() {
+		var x = "<tr>";
+		x = x + "<td>Name</td>";
+		x += "<td>&nbsp";
+		x += "<form>";
+		x += "<input type=\"text\" name=\"Name\" id=\"a\"><br>";
+		x += "</form>";
+		x += "</td>";
+		x += "<td><br></td>";
+		x += "</tr>";
+		x += "<tr><td><br></td></tr>";
+		x = x + "<td>Student_id</td>";
+		x += "<td>&nbsp";
+		x += "<form>";
+		x += "<input type=\"text\" name=\"Student_id\" id=\"b\"><br>";
+		x += "</form>";
+		x += "</td>";
+		x += "<td><br></td>";
+		x += "</tr>";
+		x += "<tr><td><br></td></tr>";
+		document.getElementById("student").innerHTML = x;
+	}
+	function EmployeeForm() {
+		var x = "<tr>";
+		x = x + "<td>Name</td>";
+		x += "<td>&nbsp";
+		x += "<form>";
+		x += "<input type=\"text\" name=\"Name\" id=\"a\"><br>";
+		x += "</form>";
+		x += "</td>";
+		x += "<td><br></td>";
+		x += "</tr>";
+		x += "<tr><td><br></td></tr>";
+		x = x + "<td>Employee_id</td>";
+		x += "<td>&nbsp";
+		x += "<form>";
+		x += "<input type=\"text\" name=\"Employee_id\" id=\"b\"><br>";
+		x += "</form>";
+		x += "</td>";
+		x += "<td><br></td>";
+		x += "</tr>";
+		x += "<tr><td><br></td></tr>";
+		document.getElementById("employee").innerHTML = x;
+	}
+</script>
+</head>
+<body>
+	<button type="button" onclick="StudentForm()">Student</button>
+
+	<button type="button" onclick="EmployeeForm()">Employee</button>
+	<p id="student"></p>
+	<p id="employee"></p>
+</body>
+</html>

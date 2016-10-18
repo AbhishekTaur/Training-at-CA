@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Shopping Page</title>
+</head>
+<body>
+<h3> Pick an item</h3>
+<form action="shoppingServlet" method="get">
+Items:
+<select name="itemCode">
+	<option value="1">Item1</option>
+	<option value="2">Item2</option>
+	<option value="3">Item3</option>
+	<option value="4">Item4</option>
+	<option value="5">Item5</option>
+</select>
+<br>
+Select quantity:
+<input type="text" name="quantity">
+<input type="submit" value="Add to Cart">
+<br>
+</form>
+<a href="shoppingServlet?checkout=true">Checkout</a>
+
+</body>
+</html>

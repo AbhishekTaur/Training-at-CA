@@ -1,0 +1,9 @@
+INDEX VERSION 1.126
+C:\Users\TAUAB01\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2421303426.index
+\JSP_First_Exercise\src
+C:\Users\TAUAB01\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\336081884.index
+\Servlets_Third_Exercise\src
+C:\Users\TAUAB01\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4075079405.index
+\JSP_Third_Exercise\src
+C:\Users\TAUAB01\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2413309471.index
+\JSP_Second_Exercise\src

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Index Page</title>
+<script>
+	var number;
+	myArray = new Array;
+	var stop = 0;
+	var sum = 0;
+	while(stop==0){
+		number=prompt("Please enter a number and to exit enter -1", 1);
+		if(number==-1){
+			stop = 1;
+		}
+		else{
+			myArray.push(number);
+		}
+	}
+	while(myArray.length>0){
+		sum = sum + parseInt(myArray[myArray.length-1]);
+		document.write(myArray.pop()+"<br>");
+	}
+	document.write(sum);
+</script>
+</head>
+<body>
+
+</body>
+</html>

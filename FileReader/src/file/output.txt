@@ -1,0 +1,1 @@
+This is the input file. OutsideThis is the Halo string and what is it
