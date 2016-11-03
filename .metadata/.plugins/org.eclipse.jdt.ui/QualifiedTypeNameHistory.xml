@@ -1,20 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="javax.servlet.http.HttpServletRequest"/>
-<fullyQualifiedTypeName name="javax.servlet.http.HttpServletResponse"/>
-<fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
-<fullyQualifiedTypeName name="java.io.IOException"/>
-<fullyQualifiedTypeName name="java.io.PrintWriter"/>
-<fullyQualifiedTypeName name="javax.annotation.processing.Processor"/>
-<fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
-<fullyQualifiedTypeName name="model.Processor"/>
-<fullyQualifiedTypeName name="java.util.HashMap"/>
-<fullyQualifiedTypeName name="data.DataProvider"/>
-<fullyQualifiedTypeName name="data.Employee"/>
-<fullyQualifiedTypeName name="factory.CountryFactory"/>
-<fullyQualifiedTypeName name="factory.AnimalFactory"/>
-<fullyQualifiedTypeName name="factory.SpeciesFactory"/>
-<fullyQualifiedTypeName name="factory.ReptileFactory"/>
 <fullyQualifiedTypeName name="factory.MammalFactory"/>
 <fullyQualifiedTypeName name="factory.NoSuchAnimalException"/>
 <fullyQualifiedTypeName name="corporate.Employee"/>
@@ -51,7 +36,6 @@
 <fullyQualifiedTypeName name="javax.ws.rs.Consumes"/>
 <fullyQualifiedTypeName name="javax.ws.rs.POST"/>
 <fullyQualifiedTypeName name="javax.xml.bind.annotation.XmlRootElement"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="java.net.URL"/>
 <fullyQualifiedTypeName name="java.net.HttpURLConnection"/>
@@ -60,4 +44,20 @@
 <fullyQualifiedTypeName name="java.io.InputStreamReader"/>
 <fullyQualifiedTypeName name="javax.ws.rs.client.Entity"/>
 <fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="java.text.DateFormat"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
+<fullyQualifiedTypeName name="processing.core.PApplet"/>
+<fullyQualifiedTypeName name="de.fhpotsdam.unfolding.UnfoldingMap"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="de.fhpotsdam.unfolding.data.GeoJSONReader"/>
+<fullyQualifiedTypeName name="de.fhpotsdam.unfolding.utils.MapUtils"/>
+<fullyQualifiedTypeName name="de.fhpotsdam.unfolding.marker.Marker"/>
+<fullyQualifiedTypeName name="de.fhpotsdam.unfolding.data.Feature"/>
+<fullyQualifiedTypeName name="de.fhpotsdam.unfolding.providers.EsriProvider"/>
+<fullyQualifiedTypeName name="de.fhpotsdam.unfolding.marker.SimplePointMarker"/>
+<fullyQualifiedTypeName name="module5.CityMarker"/>
+<fullyQualifiedTypeName name="module5.EarthquakeMarker"/>
 </qualifiedTypeNameHistroy>
